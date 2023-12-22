@@ -23,7 +23,7 @@ function Notes(props) {
       navigate('/login'); 
     }
     
-  }, [navigate]);
+  }, [getNotes,navigate]);
   const ref = useRef(null)
   const refClose = useRef(null)
   const [note, setnote] = useState({id:"" ,etitle:"",edescription:"",etag:""})
