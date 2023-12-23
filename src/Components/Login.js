@@ -39,7 +39,7 @@ function Login(props) {
     return (
         <div className="container mb-3 ">
             <h2>Login to continue to iNotebook</h2>
-            <form className=" my-2"onSubmit={handleSubmit}>
+            <form className=" my-2"onSubmit={handleSubmit}style={{ }}>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email </label>
                     <input type="email" value={crediantials.email}className="form-control" onChange={onChange}id="email" aria-describedby="emailHelp" name='email' placeholder="Enter email" />
